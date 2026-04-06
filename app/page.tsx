@@ -49,9 +49,9 @@ export default function ZiggyBusinessHome() {
           <Link href="/" className="font-bold text-2xl tracking-tight">
             <span style={{ color: '#ff1744' }}>Ziggy</span><span style={{ color: '#ffffff' }}>Business</span>
           </Link>
-          <div className="hidden md:flex items-center gap-1 text-xs text-[#b3b3b3]">
+          <div className="hidden md:flex items-center gap-2 text-sm text-[#b3b3b3]">
             {[['All Apps', '#apps'], ['Pricing', '#pricing'], ['Coming Soon', '#coming-soon'], ['FAQ', '#faq']].map(([label, href]) => (
-              <a key={label} href={href} className="px-3 py-2 hover:text-white transition-colors rounded-lg hover:bg-[#1a1a1a]">{label}</a>
+              <a key={label} href={href} className="px-4 py-2 hover:text-white transition-colors rounded-lg hover:bg-[#1a1a1a]">{label}</a>
             ))}
           </div>
           <a href="#pricing" className="inline-flex items-center gap-2 px-5 py-2.5 bg-white text-[#0a0a0a] rounded-xl font-semibold text-sm hover:opacity-90 hover:scale-105 transition-all">
