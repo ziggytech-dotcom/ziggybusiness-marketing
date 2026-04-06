@@ -61,7 +61,7 @@ export default function ZiggyBusinessHome() {
       </nav>
 
       {/* Hero */}
-      <section className="relative overflow-hidden pt-32 pb-24 px-4 bg-[#0a0a0a]">
+      <section className="relative overflow-hidden pt-32 pb-24 px-4 bg-[#0a0a0a] text-center">
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[1000px] h-[600px] rounded-full blur-3xl" style={{backgroundColor: 'rgba(255,23,68,0.06)'}} />
           <div className="absolute inset-0 opacity-[0.03]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,0.1) 1px,transparent 1px)', backgroundSize: '64px 64px' }} />
